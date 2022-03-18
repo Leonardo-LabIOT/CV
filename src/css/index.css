@@ -13,6 +13,9 @@ body{
     border-color: aqua;
     border-style: groove;
 }
+.conteudo{
+    display: flex;
+}
 .cont{
     background-color: darkblue;
     color: antiquewhite;
@@ -21,6 +24,8 @@ body{
     border-style:groove;    
     width: 30%;
     transition: 0.15s ease-in-out;
+    text-align: center;
+    padding: 0 10px;;
 }
 .cont:hover{
     transform: scale(1.05);
@@ -32,15 +37,10 @@ body{
     border-color: aqua;
     border-style:solid;
     width: 70%;
-    align-items: center;
-    padding: 20px;
+    padding: 0 10px;
 }
 .titu{
-    background-color: brown;
-    text-align: left;
-    border: 5px;
-    border-color: aqua;
-    border-style: groove;
+    text-align: center;
 }
 .facus{
     display: block;
@@ -50,30 +50,31 @@ body{
     border-bottom: 5px;
     border-bottom-color: aqua;
     border-bottom-style: groove;
+    padding-top: 15px;
 }
 h1{
-    font-size: 3.5em;
     text-align: center;
     color: whitesmoke;
     padding: 20px;
+    font-size: 6vh;
 }
 h2{
-    font-size: 3em;
-    text-align: left;
+    font-size: 5vh;
     border-bottom: 5px;
     border-bottom-color: burlywood;
     border-bottom-style: groove;
     padding: 15px 15px 15px 15px;
 }
 h3{
-    font-size: 2.5em;
+    font-size: 4vh;
     text-align: right;
 }
 h4{
-    font-size: 2em;
+    font-size: 3vh;
     text-align: right;
+    padding-bottom: 10px;
 }
 h5{
     text-align: justify;
-    width: 75%;
+    width: 100%;
 }
