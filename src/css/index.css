@@ -20,6 +20,10 @@ body{
     border-color: aqua;
     border-style:groove;    
     width: 30%;
+    transition: 0.15s ease-in-out;
+}
+.cont:hover{
+    transform: scale(1.05);
 }
 .formacao{
     background-color: darkblue;
