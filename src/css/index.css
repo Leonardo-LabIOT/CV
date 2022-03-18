@@ -1,0 +1,75 @@
+/* gap:25px - espaço entre elementos */
+
+body{
+    font-family: 'Dosis', sans-serif;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+.nome{
+    width: 100%;
+    background-color: darkblue;
+    border: 5px;
+    border-color: aqua;
+    border-style: groove;
+}
+.cont{
+    background-color: darkblue;
+    color: antiquewhite;
+    border: 3px;
+    border-color: aqua;
+    border-style:groove;    
+    width: 30%;
+}
+.formacao{
+    background-color: darkblue;
+    color: antiquewhite;
+    border: 3px;
+    border-color: aqua;
+    border-style:solid;
+    width: 70%;
+    align-items: center;
+    padding: 20px;
+}
+.titu{
+    background-color: brown;
+    text-align: left;
+    border: 5px;
+    border-color: aqua;
+    border-style: groove;
+}
+.facus{
+    display: block;
+    justify-content: end;
+}
+.facu{
+    border-bottom: 5px;
+    border-bottom-color: aqua;
+    border-bottom-style: groove;
+}
+h1{
+    font-size: 3.5em;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+}
+h2{
+    font-size: 3em;
+    text-align: left;
+    border-bottom: 5px;
+    border-bottom-color: burlywood;
+    border-bottom-style: groove;
+    padding: 15px 15px 15px 15px;
+}
+h3{
+    font-size: 2.5em;
+    text-align: right;
+}
+h4{
+    font-size: 2em;
+    text-align: right;
+}
+h5{
+    text-align: justify;
+    width: 75%;
+}
