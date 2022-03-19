@@ -12,6 +12,7 @@ body{
     border: 5px;
     border-color: aqua;
     border-style: groove;
+    max-height: min-content;
 }
 .conteudo{
     display: flex;
