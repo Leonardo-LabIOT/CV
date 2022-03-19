@@ -5,8 +5,10 @@ body{
     /* display: flex; */
     align-items: center;
     justify-content: center;
+    max-width: 1100px;
 }
 .nome{
+    max-width: 1100px;
     width: 100%;
     background-color: black;
     border: 5px;
@@ -15,6 +17,7 @@ body{
     max-height: min-content;
 }
 .conteudo{
+    max-width: 1100px;
     display: flex;
 }
 .cont{
@@ -26,13 +29,21 @@ body{
     width: 30%;
     transition: 0.15s ease-in-out;
     text-align: center;
-    padding: 0 10px;;
+    padding: 0 10px;
+    position: fixed;
 }
-
+.ccc{
+}
+.ccc:hover{
+    transform: scale(1.05);
+}
 .comunic{
-    display: flex;
     flex-direction: column;
     padding-top: 10px;
+    display: none;
+}
+.aberto{
+    display: block;
 }
 .botaoCom{
     background-color: black;
@@ -49,7 +60,7 @@ body{
     padding: 5px;
 }
 .dadosCon:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 .formacao{
     background-color: darkslategrey;
@@ -100,4 +111,7 @@ h4{
 h5{
     text-align: justify;
     width: 100%;
+}
+cll{
+    clear: both;
 }

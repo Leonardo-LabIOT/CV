@@ -1,12 +1,13 @@
 // var, const, let;
 
-let a="Olá Mundo";
-
-
-// alert(b);
-document.getElementById('demo').innerHTML = 'Hello JavaScript';
-
 {/* <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button> */}
 function myFun(){
-    alert(a);
+    alert("Ola!");
 }
+
+document.getElementById("cc").addEventListener("click", () => {
+    document.getElementById("idCom").classList.add("aberto");
+    console.log("ola");
+});
+
+// document.getElementById("cc").addEventListener("click", myFun);
