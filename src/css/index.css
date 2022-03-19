@@ -8,9 +8,9 @@ body{
 }
 .nome{
     width: 100%;
-    background-color: darkblue;
+    background-color: black;
     border: 5px;
-    border-color: aqua;
+    border-color: gold;
     border-style: groove;
     max-height: min-content;
 }
@@ -18,10 +18,10 @@ body{
     display: flex;
 }
 .cont{
-    background-color: darkblue;
+    background-color: black;
     color: antiquewhite;
     border: 3px;
-    border-color: aqua;
+    border-color: gold;
     border-style:groove;    
     width: 30%;
     transition: 0.15s ease-in-out;
@@ -31,11 +31,16 @@ body{
 .cont:hover{
     transform: scale(1.05);
 }
+.comunic{
+    display: flex;
+    display: block;
+    flex-direction: column;
+}
 .formacao{
-    background-color: darkblue;
+    background-color: black;
     color: antiquewhite;
     border: 3px;
-    border-color: aqua;
+    border-color: gold;
     border-style:solid;
     width: 70%;
     padding: 0 10px;
@@ -49,7 +54,7 @@ body{
 }
 .facu{
     border-bottom: 5px;
-    border-bottom-color: aqua;
+    border-bottom-color: gold;
     border-bottom-style: groove;
     padding-top: 15px;
 }
@@ -62,7 +67,7 @@ h1{
 h2{
     font-size: 5vh;
     border-bottom: 5px;
-    border-bottom-color: burlywood;
+    border-bottom-color: gold;
     border-bottom-style: groove;
     padding: 15px 15px 15px 15px;
 }
