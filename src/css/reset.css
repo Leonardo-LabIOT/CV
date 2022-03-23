@@ -1,6 +1,6 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin:0;
     box-sizing: border-box;
     text-decoration: none;
     box-shadow: none;
@@ -9,6 +9,6 @@ ul {
     list-style-type: none;
 }
 a:link, a:visited,  a:hover, a:active{
-    color: black;
+    color: gold;
     text-decoration: none;
 }

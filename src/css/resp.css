@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     .conteudo{
         display: block;
     }
@@ -9,5 +9,4 @@
     h1,h2 {
         text-align: center;
     }
-
 }

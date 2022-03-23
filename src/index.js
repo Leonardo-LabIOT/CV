@@ -6,8 +6,15 @@ function myFun(){
 }
 
 document.getElementById("cc").addEventListener("click", () => {
-    document.getElementById("idCom").classList.add("aberto");
-    console.log("ola");
+
+    //aberto
+    if(document.getElementById("idCom").classList.contains("aberto")){
+        document.getElementById("idCom").classList.remove("aberto");
+    }
+    // fechado
+    else{
+        document.getElementById("idCom").classList.add("aberto");
+    }
 });
 
 // document.getElementById("cc").addEventListener("click", myFun);

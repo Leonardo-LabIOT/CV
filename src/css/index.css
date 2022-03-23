@@ -1,27 +1,25 @@
-/* gap:25px - espaço entre elementos */
-
 body{
     font-family: 'Dosis', sans-serif;
-    /* display: flex; */
+    display: flex;   
+    justify-content: center;    
     align-items: center;
-    justify-content: center;
-    max-width: 1100px;
+    justify-items: center;
 }
-.nome{
-    max-width: 1100px;
-    width: 100%;
+main{
+    width: 900px;
+}
+.nome{    
     background-color: black;
     border: 5px;
     border-color: gold;
     border-style: groove;
-    max-height: min-content;
 }
 .conteudo{
-    max-width: 1100px;
     display: flex;
 }
+/* Contatos: */
 .cont{
-    background-color: black;
+    background-color: darkslategrey;
     color: antiquewhite;
     border: 3px;
     border-color: gold;
@@ -30,20 +28,19 @@ body{
     transition: 0.15s ease-in-out;
     text-align: center;
     padding: 0 10px;
-    position: fixed;
+    /* position: fixed; */
+    float: left;
 }
-.ccc{
+.ccc{    
+    cursor: pointer;
 }
 .ccc:hover{
-    transform: scale(1.05);
+    transform: scale(1.05);  
 }
 .comunic{
-    flex-direction: column;
+    /* flex-direction: column; */
     padding-top: 10px;
     display: none;
-}
-.aberto{
-    display: block;
 }
 .botaoCom{
     background-color: black;
@@ -52,16 +49,28 @@ body{
     padding: 5px;
     /* padding: 10px; */
     /* width: 100%; */
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 .dadosCon{
     border: 5px gold groove;
-    background-color: darkslategray;
+    background-color: black;
     padding: 5px;
 }
 .dadosCon:hover{
     transform: scale(1.02);
 }
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  /* formação */
 .formacao{
     background-color: darkslategrey;
     color: antiquewhite;
@@ -72,46 +81,53 @@ body{
     padding: 0 10px;
 }
 .titu{
-    text-align: center;
+    /* text-align: center; */
 }
 .facus{
-    display: block;
-    justify-content: end;
+    /* resolver */
+    /* justify-content: end; */
     /* background-color:darkslategray; */
 }
 .facu{
-    border-bottom: 5px;
-    border-bottom-color: gold;
-    border-bottom-style: groove;
     padding-top: 15px;
 }
+.ln{
+    border-bottom: 5px gold groove;
+}
 h1{
-    text-align: center;
+    /* text-align: center; */
     color: whitesmoke;
     padding: 20px;
     font-size: 6vh;
 }
 h2{
     font-size: 5vh;
-    border-bottom: 5px;
-    border-bottom-color: gold;
-    border-bottom-style: groove;
+    border: 5px;
+    border-color: gold;
+    border-style: groove;
     padding: 15px 15px 15px 15px;
     background-color: black;
 }
 h3{
     font-size: 4vh;
-    text-align: right;
+    /* text-align: right; */
 }
 h4{
     font-size: 3vh;
-    text-align: right;
+    /* text-align: right; */
     padding-bottom: 10px;
 }
 h5{
-    text-align: justify;
-    width: 100%;
+    /* text-align: justify; */
+    /* width: 100%; */
 }
-cll{
+footer{
+    background-color: blue;
+    border: 5px groove gold;
+}
+.cll{
     clear: both;
+}
+.aberto{
+    display: block;
 }
