@@ -3,68 +3,67 @@ body{
     display: flex;   
     justify-content: center;    
     align-items: center;
-    justify-items: center;
+    background-color: gainsboro;
 }
 main{
     width: 900px;
+    background-color: black
 }
 .nome{    
     background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px;
     border: 5px;
     border-color: gold;
     border-style: groove;
+    margin-bottom: 1px;
 }
 .conteudo{
     display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }
 /* Contatos: */
-.cont{
+.cont, .cursos, .formacao, .myTags{
     background-color: darkslategrey;
     color: antiquewhite;
     border: 3px;
     border-color: gold;
     border-style:groove;    
-    width: 30%;
     transition: 0.15s ease-in-out;
     text-align: center;
-    padding: 0 10px;
+    padding: 10px;
+    margin: 1px;
+}
+.cont{
     /* position: fixed; */
-    float: left;
+    width: 30%;
 }
-.ccc{    
+.ccc, .titu, .dadosCon{    
     cursor: pointer;
+    background-color: black;
+    border: gold 5px groove;
 }
-.ccc:hover{
-    transform: scale(1.05);  
+.ccc:hover, .titu:hover, .dadosCon:hover{
+    transform: scale(1.02);
 }
 .comunic{
-    /* flex-direction: column; */
     padding-top: 10px;
     display: none;
 }
-.botaoCom{
-    background-color: black;
-    color: blue;
-    border: 5px gold groove;
-    padding: 5px;
-    /* padding: 10px; */
-    /* width: 100%; */
-    /* flex-direction: column; */
-}
 .dadosCon{
-    border: 5px gold groove;
-    background-color: black;
     padding: 5px;
+    margin: 3px;
 }
-.dadosCon:hover{
-    transform: scale(1.02);
-}
+
 textarea {
-    width: 100%;
-    height: 100px;
+    width: 90%;
+    height: 75px;
     padding: 10px;
     box-sizing: border-box;
     border: 2px solid #ccc;
+    margin: 20px 0;
     border-radius: 4px;
     background-color: #f8f8f8;
     font-size: 16px;
@@ -72,58 +71,53 @@ textarea {
   }
   /* formação */
 .formacao{
-    background-color: darkslategrey;
-    color: antiquewhite;
-    border: 3px;
-    border-color: gold;
-    border-style:solid;
     width: 70%;
-    padding: 0 10px;
 }
 .titu{
-    /* text-align: center; */
+    text-align: center;
 }
 .facus{
-    /* resolver */
-    /* justify-content: end; */
-    /* background-color:darkslategray; */
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: flex-end;
 }
-.facu{
-    padding-top: 15px;
+.contFacu{
+    background-color: brown;
+}
+.facu1, .facu2{
+    padding: 10px 0;
+    width: 90%;
+    justify-content: right;
+}
+/* .facu1{
+    padding-top: 50px;
+    border-bottom: 5px gold groove;
+} */
+.facNome{
+    padding-bottom: 15px;
+    text-align: right;
+}
+.facDesc{
+    text-align: justify;
 }
 .ln{
+    width: 100%;
     border-bottom: 5px gold groove;
 }
-h1{
-    /* text-align: center; */
-    color: whitesmoke;
-    padding: 20px;
-    font-size: 6vh;
+.myTags{
+    background-color: darkred;
 }
-h2{
-    font-size: 5vh;
-    border: 5px;
-    border-color: gold;
-    border-style: groove;
-    padding: 15px 15px 15px 15px;
-    background-color: black;
-}
-h3{
-    font-size: 4vh;
-    /* text-align: right; */
-}
-h4{
-    font-size: 3vh;
-    /* text-align: right; */
-    padding-bottom: 10px;
-}
-h5{
-    /* text-align: justify; */
-    /* width: 100%; */
+.cursos{
+    background-color: blueviolet;
 }
 footer{
     background-color: blue;
     border: 5px groove gold;
+    padding: 15px;
 }
 .cll{
     clear: both;
