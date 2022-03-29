@@ -13,7 +13,7 @@ main{
     background-color: black;
     color: antiquewhite;
     text-align: center;
-    font-size: 2vh;
+    font-size: 2em;
     padding: 15px;
     margin: 1px;
     border-style: groove;
@@ -41,7 +41,7 @@ main{
     cursor: pointer;
     background-color: black;
     border-style: groove;
-    font-size: 3vh;
+    font-size: 2em;
 }
 .ccc:hover, .titu:hover, .dadosCon:hover{
     transform: scale(1.02);
