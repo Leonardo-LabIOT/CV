@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     box-shadow: none;
+    border: 5px gold;
 }
 ul {
     list-style-type: none;

@@ -13,11 +13,10 @@ main{
     background-color: black;
     color: antiquewhite;
     text-align: center;
+    font-size: 2vh;
     padding: 15px;
-    border: 5px;
-    border-color: gold;
+    margin: 1px;
     border-style: groove;
-    margin-bottom: 1px;
 }
 .conteudo{
     display: flex;
@@ -28,13 +27,11 @@ main{
 .cont, .cursos, .formacao, .myTags{
     background-color: darkslategrey;
     color: antiquewhite;
-    border: 3px;
-    border-color: gold;
-    border-style:groove;    
     transition: 0.15s ease-in-out;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     margin: 1px;
+    border-style: groove;
 }
 .cont{
     /* position: fixed; */
@@ -43,7 +40,8 @@ main{
 .ccc, .titu, .dadosCon{    
     cursor: pointer;
     background-color: black;
-    border: gold 5px groove;
+    border-style: groove;
+    font-size: 3vh;
 }
 .ccc:hover, .titu:hover, .dadosCon:hover{
     transform: scale(1.02);
@@ -88,15 +86,11 @@ textarea {
 .contFacu{
     background-color: brown;
 }
-.facu1, .facu2{
+.facu{
     padding: 10px 0;
     width: 90%;
     justify-content: right;
 }
-/* .facu1{
-    padding-top: 50px;
-    border-bottom: 5px gold groove;
-} */
 .facNome{
     padding-bottom: 15px;
     text-align: right;
@@ -106,7 +100,7 @@ textarea {
 }
 .ln{
     width: 100%;
-    border-bottom: 5px gold groove;
+    border-bottom-style: groove;
 }
 .myTags{
     background-color: darkred;
@@ -116,8 +110,9 @@ textarea {
 }
 footer{
     background-color: blue;
-    border: 5px groove gold;
     padding: 15px;
+    margin: 1px;
+    border-style: groove;
 }
 .cll{
     clear: both;
