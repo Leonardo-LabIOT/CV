@@ -13,7 +13,7 @@ main{
     background-color: black;
     color: antiquewhite;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2vh;
     padding: 15px;
     margin: 1px;
     border-style: groove;
@@ -26,7 +26,7 @@ main{
 /* Contatos: */
 .cont, .cursos, .formacao, .myTags{
     background-color: darkslategrey;
-    color: red;
+    color: silver;
     transition: 0.15s ease-in-out;
     text-align: center;
     padding: 15px;
@@ -41,7 +41,7 @@ main{
     cursor: pointer;
     background-color: black;
     border-style: groove;
-    font-size: 2em;
+    font-size: 3hv;
     padding: 10px;
 }
 .ccc:hover, .titu:hover, .dadosCon:hover{
@@ -54,6 +54,7 @@ main{
 .dadosCon{
     padding: 5px;
     margin: 3px;
+    font-size: 3vh;
 }
 
 textarea {
