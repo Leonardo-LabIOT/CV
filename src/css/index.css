@@ -13,7 +13,7 @@ main{
     background-color: black;
     color: antiquewhite;
     text-align: center;
-    font-size: 2vh;
+    font-size: 1em;
     padding: 15px;
     margin: 1px;
     border-style: groove;
@@ -25,8 +25,8 @@ main{
 }
 /* Contatos: */
 .cont, .cursos, .formacao, .myTags{
-    background-color: darkslategrey;
-    color: silver;
+    background-color: #333;
+    color: #fff;
     transition: 0.15s ease-in-out;
     text-align: center;
     padding: 10px;
@@ -49,7 +49,6 @@ main{
 }
 .comunic{
     padding-top: 10px;
-    display: none;
 }
 .dadosCon{
     padding: 5px;
@@ -84,6 +83,7 @@ textarea {
     flex-wrap: nowrap;
     align-content: space-around;
     align-items: flex-end;
+   
 }
 .contFacu{
     background-color: brown;
@@ -103,6 +103,8 @@ textarea {
 .ln{
     width: 100%;
     border-bottom-style: groove;
+    border-image: linear-gradient(to right, #00f, #0f0);
+    border-image-slice: 1;
 }
 .myTags{
     background-color: darkred;
@@ -118,6 +120,9 @@ footer{
 }
 .cll{
     clear: both;
+}
+.fechado{
+    display: none;
 }
 .aberto{
     display: block;

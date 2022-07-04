@@ -4,6 +4,7 @@
 function myFun(){
     alert("Ola!");
 }
+//byID
 
 document.getElementById("cc").addEventListener("click", () => {
 
@@ -17,4 +18,16 @@ document.getElementById("cc").addEventListener("click", () => {
     }
 });
 
+//byClass
+
 // document.getElementById("cc").addEventListener("click", myFun);
+
+let abreFecha = document.querySelectorAll(".ccc");
+
+abreFecha.forEach(abreFecha7 => {
+    // idCom
+    // abreFecha
+    abreFecha7.addEventListener("click", () => {
+    console.log("Olá Mundo!!!");
+});
+});
