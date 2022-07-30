@@ -2,11 +2,16 @@
     .conteudo{
         display: block;
     }
-
     .cont, .formacao{
         width: 100%;
+        padding: 20px 10px;
+        border-right: none;
     }
     h1,h2 {
         text-align: center;
+    }
+    .cont{
+        text-align: center;
+        border-bottom: groove;
     }
 }
