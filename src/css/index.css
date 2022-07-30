@@ -3,25 +3,31 @@ body{
     display: flex;   
     justify-content: center;    
     align-items: center;
-    background-color: gainsboro;
+    background-color: #ccc;
 }
 main{
     width: 900px;
-    background-color: black
+    background-color: #333
 }
 .nome{    
-    background-color: black;
-    color: antiquewhite;
+    background-color: #000;
+    color: white;
     text-align: center;
-    font-size: 1em;
-    padding: 15px;
-    margin: 1px;
-    border-style: groove;
+    padding: 10px;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 15px;
 }
 .conteudo{
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    border-top: groove;
 }
 /* Contatos: */
 .cont, .cursos, .formacao, .myTags{
@@ -29,23 +35,21 @@ main{
     color: #fff;
     transition: 0.15s ease-in-out;
     text-align: center;
-    padding: 10px;
-    margin: 1px;
-    border-style: groove;
+    padding: 5px 10px;
 }
 .cont{
     /* position: fixed; */
-    width: 30%;
+    flex: 3;
+    border-right: groove;
 }
 .ccc, .titu, .dadosCon{    
     cursor: pointer;
     background-color: black;
     border-style: groove;
-    font-size: 3hv;
     padding: 10px;
 }
 .ccc:hover, .titu:hover, .dadosCon:hover{
-    transform: scale(1.02);
+    transform: scale(1.01,1.05);
 }
 .comunic{
     padding-top: 10px;
@@ -53,9 +57,7 @@ main{
 .dadosCon{
     padding: 5px;
     margin: 5px 10px;
-    font-size: 3vh;
 }
-
 textarea {
     width: 90%;
     height: 75px;
@@ -65,12 +67,12 @@ textarea {
     margin: 20px 0;
     border-radius: 4px;
     background-color: #f8f8f8;
-    font-size: 16px;
+    font-size: 15px;
     resize: none;
   }
   /* formação */
 .formacao{
-    width: 70%;
+    flex: 7;
 }
 .titu{
     text-align: center;
@@ -99,12 +101,19 @@ textarea {
 }
 .facDesc{
     text-align: justify;
+    display: flex;
+    flex-direction: column;
 }
-.ln{
+.facDesc a{
+    margin-top: 15px;
+}
+hr{
     width: 100%;
-    border-bottom-style: groove;
-    border-image: linear-gradient(to right, #00f, #0f0);
-    border-image-slice: 1;
+    background-image: linear-gradient(to right, #00f, rgb(25, 195, 13));
+    height: 5px;
+}
+p, li{
+    font-size: 15px;
 }
 .myTags{
     background-color: darkred;
@@ -113,7 +122,7 @@ textarea {
     background-color: blueviolet;
 }
 footer{
-    background-color: blue;
+    background-color: #333;
     padding: 15px;
     margin: 1px;
     border-style: groove;
