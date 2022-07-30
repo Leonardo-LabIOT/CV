@@ -13,8 +13,9 @@ main{
     background-color: #000;
     color: white;
     text-align: center;
-    padding: 10px;
-    border-top: groove;
+    padding: 15px 5px;
+    border: groove;
+    border-bottom: none;
 }
 h1{
     font-size: 30px;
