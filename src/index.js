@@ -1,5 +1,12 @@
-document.getElementById("cc").addEventListener("click", () => {
+const cc = document.getElementById("cc")
+
+const contateMe = () => {
     const idCon = document.getElementById("idCom");
+    window.scrollTo({
+        top:0,
+        left:0,
+        behavior:"smooth"
+    })
     //aberto
     if(idCon.classList.contains("aberto")){
         idCon.classList.remove("aberto");
@@ -7,8 +14,11 @@ document.getElementById("cc").addEventListener("click", () => {
     // fechado
     else{
         idCon.classList.add("aberto");
+        // window.scrollTo(0,0);
     }
-});
+}
+
+cc.addEventListener("click", contateMe);
 
 let abreFecha = document.querySelectorAll(".ccc");
 
@@ -25,3 +35,7 @@ lin.forEach(e=>{
         window.open(e.firstElementChild.href);
     })
 })
+
+const contate = document.querySelector(".contat");
+
+contate.addEventListener("click", contateMe);

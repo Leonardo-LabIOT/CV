@@ -22,6 +22,8 @@ h1{
 }
 h2{
     font-size: 25px;
+    color: white;
+    text-align: center;
 }
 h3{
     font-size: 20px;
@@ -131,6 +133,23 @@ footer{
 }
 .cll{
     clear: both;
+}
+.foo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contat{
+    color: rgb(85, 148, 211);
+    color: goldenrod;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    width: fit-content;
+}
+.contat:active{
+    transform: scale(1.05);
 }
 .fechado{
     display: none;
