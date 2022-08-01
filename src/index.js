@@ -1,14 +1,14 @@
 const cc = document.getElementById("cc")
 
-const contateMe = () => {
+const contateMe = (x) => {
     const idCon = document.getElementById("idCom");
-    window.scrollTo({
-        top:0,
+    window.scroll({
+        top:70,
         left:0,
         behavior:"smooth"
     })
     //aberto
-    if(idCon.classList.contains("aberto")){
+    if(idCon.classList.contains("aberto")&&x){
         idCon.classList.remove("aberto");
     }
     // fechado
@@ -18,7 +18,9 @@ const contateMe = () => {
     }
 }
 
-cc.addEventListener("click", contateMe);
+cc.addEventListener("click", ()=>{
+    contateMe(true);
+});
 
 let abreFecha = document.querySelectorAll(".ccc");
 
@@ -38,4 +40,6 @@ lin.forEach(e=>{
 
 const contate = document.querySelector(".contat");
 
-contate.addEventListener("click", contateMe);
+contate.addEventListener("click", ()=>{
+    contateMe(false);
+});
