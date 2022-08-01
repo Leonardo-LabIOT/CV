@@ -10,6 +10,9 @@
     h1,h2 {
         text-align: center;
     }
+    ul{
+        padding: 0 20px;
+    }
     .ccc,.titu{
         margin: 0 13px;
     }
