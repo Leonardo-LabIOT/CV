@@ -15,7 +15,6 @@ main{
     text-align: center;
     padding: 10px 5px;
     border: groove;
-    border-bottom: none;
 }
 h1{
     font-size: 30px;
@@ -31,13 +30,12 @@ h3{
 .conteudo{
     display: flex;
     flex-direction: row;
-    border-top: groove;
 }
 /* Contatos: */
 .cont, .cursos, .formacao, .myTags{
     background-color: #555;
     color: #fff;
-    background-image: linear-gradient(to bottom right, #444, #777, #444);
+    background-image: linear-gradient(to bottom right, #555, #777, #555);
     transition: 0.15s ease-in-out;
     text-align: center;
     padding: 10px 15px;
@@ -74,8 +72,8 @@ textarea {
     background-color: #f8f8f8;
     font-size: 15px;
     resize: none;
-  }
-  /* formação */
+}
+/* formação */
 .formacao{
     flex: 7;
 }
@@ -91,8 +89,6 @@ textarea {
     align-content: space-around;
     align-items: flex-end;
 }
-/* .contFacu{background-color: brown; 
-} */
 .facu{
     padding: 10px 0;
     /* width: 90%; */
@@ -150,6 +146,9 @@ footer{
 }
 .contat:active{
     transform: scale(1.05);
+}
+.parte2{
+    border-top: groove;
 }
 .cursos div{
     display: flex;

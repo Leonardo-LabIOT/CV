@@ -4,8 +4,7 @@
     }
     .cont, .formacao{
         width: 100%;
-        padding: 15px 0px;
-        border-right: none;
+        padding: 15px;
     }
     h1,h2 {
         text-align: center;
@@ -13,11 +12,9 @@
     ul{
         padding: 0 20px;
     }
-    .ccc,.titu{
-        margin: 0 13px;
-    }
-    .cont{
+    .cont, .myTags{
         text-align: center;
         border-bottom: groove;
+        border-right: none;
     }
 }
