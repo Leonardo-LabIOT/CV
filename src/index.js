@@ -1,13 +1,12 @@
-const cc = document.getElementById("cc")
+const cc = document.getElementById("cc");
 
 const contateMe = (x) => {
     const idCon = document.getElementById("idCom");
-    // window.scroll({
-    //     top:70,
-    //     left:0,
-    //     behavior:"smooth"
-    // });
-    window.scroll(cc.positi);
+    
+    window.scroll({
+        top:70,
+        behavior:"smooth"
+    });
     //aberto
     if(idCon.classList.contains("aberto")&&x){
         idCon.classList.remove("aberto");

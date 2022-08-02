@@ -151,6 +151,13 @@ footer{
 .contat:active{
     transform: scale(1.05);
 }
+.myTags{
+    flex: 5;
+    border-right: groove;
+}
+.cursos{
+    flex: 5;
+}
 .fechado{
     display: none;
 }
