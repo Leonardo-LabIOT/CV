@@ -43,3 +43,6 @@ const contate = document.querySelector(".contat");
 contate.addEventListener("click", ()=>{
     contateMe(false);
 });
+
+const nxtBtn = document.querySelector("nxtBtn");
+const prevBtn = document.querySelector("prevBtn");

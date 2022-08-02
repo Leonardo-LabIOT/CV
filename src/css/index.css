@@ -35,8 +35,9 @@ h3{
 }
 /* Contatos: */
 .cont, .cursos, .formacao, .myTags{
-    background-color: #333;
+    background-color: #555;
     color: #fff;
+    background-image: linear-gradient(to bottom right, #444, #777, #444);
     transition: 0.15s ease-in-out;
     text-align: center;
     padding: 10px 15px;
@@ -46,7 +47,7 @@ h3{
     flex: 3;
     border-right: groove;
 }
-.ccc, .titu, .dadosCon{    
+.ccc, .titu, .dadosCon{
     cursor: pointer;
     background-color: black;
     border: groove;
@@ -90,9 +91,8 @@ textarea {
     align-content: space-around;
     align-items: flex-end;
 }
-.contFacu{
-    background-color: brown;
-}
+/* .contFacu{background-color: brown; 
+} */
 .facu{
     padding: 10px 0;
     /* width: 90%; */
@@ -119,14 +119,15 @@ hr{
 p, li{
     font-size: 15px;
 }
-.myTags{
-    background-color: darkred;
+.myTags, .cursos{
+    background-color: #444;
+    flex: 5;
 }
-.cursos{
-    background-color: blueviolet;
+.myTags{
+    border-right: groove;
 }
 footer{
-    background-color: #333;
+    background-color: #000;
     padding: 15px;
     margin: 1px;
     border: groove;
@@ -140,7 +141,6 @@ footer{
     align-items: center;
 }
 .contat{
-    color: rgb(85, 148, 211);
     color: goldenrod;
     text-align: center;
     font-weight: bold;
@@ -151,16 +151,33 @@ footer{
 .contat:active{
     transform: scale(1.05);
 }
-.myTags{
-    flex: 5;
-    border-right: groove;
-}
-.cursos{
-    flex: 5;
+.cursos div{
+    display: flex;
+    align-items: center;
 }
 .fechado{
     display: none;
 }
 .aberto{
     display: block;
+}
+.nxtBtn, .prevBtn{
+    background-color: transparent;
+    width: 0;
+    height: 0;
+    border: 10px transparent solid;
+    border-left: none;
+    border-right: 15px solid #fff;
+    /* border-radius: 10px; */
+    cursor: pointer;
+}
+.nxtBtn{
+    border-right: none;
+    border-left: 15px solid #fff;
+}
+.nxtBtn:hover, .prevBtn:hover{
+    transform: scale(1.1);
+}
+.nxtBtn:active, .prevBtn:active{
+    transform: scale(0.9);
 }
