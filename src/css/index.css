@@ -27,6 +27,10 @@ h2{
 h3{
     font-size: 20px;
 }
+p, li{
+    font-size: 18px;
+}
+
 .conteudo{
     display: flex;
     flex-direction: row;
@@ -111,9 +115,6 @@ hr{
     background-color: #ccc;
     background-image: linear-gradient(to right, #00f, rgb(25, 195, 13));
     height: 5px;
-}
-p, li{
-    font-size: 15px;
 }
 .myTags, .cursos{
     background-color: #444;
