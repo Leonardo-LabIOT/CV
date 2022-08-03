@@ -49,7 +49,7 @@ p, li{
     flex: 3;
     border-right: groove;
 }
-.conteudo{
+.conteudo, .conteudo3{
     display: flex;
     flex-direction: row;
 }
