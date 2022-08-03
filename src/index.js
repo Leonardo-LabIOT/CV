@@ -44,5 +44,33 @@ contate.addEventListener("click", ()=>{
     contateMe(false);
 });
 
-const nxtBtn = document.querySelector("nxtBtn");
-const prevBtn = document.querySelector("prevBtn");
+const nxtBtn = document.querySelector(".nxtBtn");
+const prevBtn = document.querySelector(".prevBtn");
+
+const expAct = Array.from(document.querySelectorAll(".xpi"));
+console.log(expAct);
+
+nxtBtn.addEventListener('click', ()=>{
+    for(let i = 0 ; i<expAct.length ; i++){
+        if(!expAct[i].classList.contains("ina")){
+            expAct[i].classList.add("ina");
+            if(i==(expAct.length)-1){
+                i=-1;
+            }
+            expAct[i+1].classList.remove("ina");
+            break;
+        }
+    }
+});
+prevBtn.addEventListener('click', ()=>{
+    for(let i = 0 ; i<expAct.length ; i++){
+        if(!expAct[i].classList.contains("ina")){
+            expAct[i].classList.add("ina");
+            if(i==0){
+                i=expAct.length;
+            }
+            expAct[i-1].classList.remove("ina");
+            break;
+        }
+    }
+});

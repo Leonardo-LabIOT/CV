@@ -154,6 +154,9 @@ footer{
 .parte2{
     border-top: groove;
 }
+.parte2 .titu{
+    margin-bottom: 10px;
+}
 .cursos div{
     display: flex;
     align-items: center;
@@ -165,13 +168,33 @@ footer{
     display: block;
 }
 .parte3{
+    display: block;
     flex-direction: column;
     border-top: groove;
 }
-.exp div{
+.exp .outerDiv{
     display: flex;
     align-items: center;
-    padding: 15px 0;
+}
+.xpi{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: left;
+    margin: 10px 15px;
+} 
+.xpi h3{
+    display: flex;
+    margin-bottom: 10px;
+    text-justify: left;
+    /* background-color: #00f; */
+}
+.xpi p{
+    text-align: justify;
+} 
+.ina{
+    display: none;
+    background-color: aqua;
 }
 .nxtBtn, .prevBtn{
     background-color: transparent;
